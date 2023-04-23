@@ -1,4 +1,5 @@
 body{
+    
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -12,37 +13,45 @@ div.header{
 .navbar{
     display: flex;
     flex-direction: column;
-    
- 
-
-
+    margin-left: -65px;
 }
+
 ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-
-
+}
+.logo a{
+    font-size: 24px;
+    color: #f9faf8;
 }
 a{
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0 -0.25rem;
+    padding: 0.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 
+}
+/* when you hover over the links */
+a:hover{
+    box-shadow: inset 100px 0 0 0 #e5e7eb;
+    color: #1F2937;
+    
 }
 /* styling the header content with css */
 .header-content{
-    padding-top: 100px;
     display: flex;
     justify-content: space-between;
-    padding: 120px;
+    padding: 100px;
    
 }
 .header-content h1{
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #f9faf8;
     margin: 0;
 
@@ -50,14 +59,14 @@ a{
 .header-content p{
     margin-right: 15px;
     
-
 }
 .header-content img{
  height: 300px;
 }
 /* styling the different sections with css */
 div.section-one{
-    background-color: #1F2937;
+   
+    /* background-color: #1F2937; */
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -72,22 +81,34 @@ div.section-one{
     margin-bottom: 100px;
 
 }
-.section-one h1{
-    color: #f9faf8;
+.section-one h2{
+    font-size: 36px;
+    padding-top: 20px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    color: #1F2937;
     text-align: center;
 }
 div.section-two{
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: center;
     background-color: #e5e7eb;
-    font-size: 20px;
-    font-weight: italic;
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+}
+.text{
+    margin:150px;
+    font-size: 36px;
     color: #1f2937;
+    font-style: italic;
+}
+.para-two{
+    font-weight: bolder;
+    margin-left: 800px;
+    font-size: 20px;
 
 }
 div.section-three{
-   height: 400px;
+   height: 300px;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -96,23 +117,36 @@ div.section-three{
     
 }
 .card{
+    padding: 40px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3882f6;
     border-radius: 5px;
     width: 1000px;
 
 }
 button{
+    font-size: 18px;
     color: #e5e7eb;
     background-color:#3882f6 ;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border: 2px solid #e5e7eb ;
     border-radius: 5px;
 }
-
+.btn-two{
+    margin-left: 50px;
+}
 /* styling the footer section with css */
 div.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
     height: 20px;
     padding: 30px;
     background-color: #1F2937;
