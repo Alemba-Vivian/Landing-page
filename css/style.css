@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+/* styling the header elements with css */
+div.header{
+    padding: 30px;
+    background-color: #1F2937;
+    color: #e5e7eb;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    
+ 
+
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+/* styling the header content with css */
+.header-content{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+   
+}
+.header-content h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+
+}
+.header-content p{
+    margin-right: 15px;
+    
+
+}
+.header-content img{
+ height: 300px;
+}
+/* styling the different sections with css */
+div.section-one{
+    background-color: #1F2937;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.photo-images{
+    margin-left: 75px;
+    font-size: 0;
+    margin-bottom: 100px;
+
+}
+.section-one h1{
+    color: #f9faf8;
+    text-align: center;
+}
+div.section-two{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    background-color: #e5e7eb;
+    font-size: 20px;
+    font-weight: italic;
+    color: #1f2937;
+
+}
+div.section-three{
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    
+    
+}
+.card{
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 1000px;
+
+}
+button{
+    color: #e5e7eb;
+    background-color:#3882f6 ;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* styling the footer section with css */
+div.footer{
+    height: 20px;
+    padding: 30px;
+    background-color: #1F2937;
+
+}
